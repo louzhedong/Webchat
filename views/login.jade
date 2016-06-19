@@ -1,0 +1,24 @@
+//
+   Created by DELL on 2016/6/17.
+
+extends layout
+
+block content
+    p #{mess}
+    form#myform(role="form",method="post")
+         fieldset#myfieldset
+            div#inputName
+                登录:
+                input#u(name="u",placeholder="登录账户",maxlength=20)
+                br
+                span#name-error
+                input#p(name="p",type='password',placeholder="登录密码",maxlength=20)
+                br
+                span#password-error
+                p
+                a(href="../register")
+                    button#wantreg(type="button") 注册账号
+                button#okname(type="submit") 确认登录
+    script(src="/javascripts/jquery-1.11.2.js")
+    script(src="/javascripts/socket.io.js")
+    script(src="/javascripts/login.js")

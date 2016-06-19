@@ -1,0 +1,78 @@
+body {
+  padding: 0px;
+  font: 14px "微软雅黑",Arial, sans-serif;
+  margin:0;
+  /*background-color: #fefefe;*/
+  color:#666;
+    background: url("../images/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+*{box-sizing: border-box;}
+html,body{height:100%;overflow: hidden;}
+form,input,p{padding:0;margin:0;box-sizing:border-box;border-radius: 3px;}
+a {
+  color: #00B7FF;
+}
+.form{position: fixed;bottom:0;width: 70%;margin-left: 50px;margin-bottom: 10px;}
+.form button{height:30px;line-height: 30px;display: inline-block;border:1px solid #ccc;margin:0;padding:0;}
+.form #u,.form #s{width:10%;height:30px;line-height: 30px;}
+.form #m{width: 80%;height:30px;line-height: 30px;}
+#u{width:180px;border:1px solid #ccc;height: 30px;line-height: 30px;border-radius: 4px;}
+#p{width:180px;border:1px solid #ccc;height: 30px;line-height: 30px;border-radius: 4px;}
+#inputName{background-color: #f7f2ee; width:250px;height:180px;border:1px solid #dab9c0;margin:0 auto;margin-top:15%;padding:20px 20px;border-radius: 10px;text-align: center;}
+#wantreg{margin:20px 20px 0 0;cursor: pointer;}
+#okname{margin:20px 0px 0 20px;cursor: pointer;}
+#chat{}
+ul,li,ol{list-style: none;}
+#messages{padding-right: 30px;overflow: auto;height: 90%;padding-bottom: 30px;border-radius: 6px;margin-left: 50px;padding-left: 10px;border:1px solid #dab9c0;margin-right: 30px;background-color: #fcfcfe;}
+li{height: 30px;line-height: 30px; word-break: break-all;clear: both;}
+li.msg span{color:#999;padding:0 3px;}
+li.msg div{border:1px solid #ccc;background-color: gold;float: left;margin-left: 20px;padding:5px 10px;border-radius: 5px;}
+#online{text-align: center;border-bottom: 1px solid #ccc;}
+li.mine div{background-color: #FFFF00;float: right;}
+li.mine{text-align: right;}
+li.private div{background-color: #CCFFFF ;}
+ol{margin: 0;line-height: 30px;padding: 0;}
+ol li{padding:0 5px;}
+ol li:hover{background-color: #f2f2f2;}
+#chat{height: 100%;padding-top: 20px;border-top:1px solid #ccc;}
+#msgContent{float:left;display: inline-block;width: 80%;overflow: hidden;height: 100%;padding-bottom:50px;}
+#users{display: inline-block;width:18%;height:100%;overflow-x:hidden;overflow-y:auto;border:1px solid #dab9c0;border-radius: 5px;}
+.menu{position: absolute;top:0;width:100%; height:38px;background-color:#0F67A1;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);margin:0;}
+.menu li{list-style:none;float:left;height:38px;line-height:38px;clear:none;}
+.menu li a{font-size:14px;color:white;font-weight:bold;padding:0 10px;}
+#msgContent img{max-height: 150px;max-width: 150px;}
+#sel_obj{width:10%;height: 30px;line-height: 30px;border-right: none;}
+
+#mytitle{font-size: 20px;padding-left: 60px;background-color: white;}
+#loginorreg{background-color: #f7f2ee; width:250px;height:120px;border:1px solid #dab9c0;margin:0 auto;margin-top:15%;padding:20px 20px;border-radius: 10px;text-align: center;}
+#registernew{background-color: #f7f2ee; width:250px;height:240px;border:1px solid #dab9c0;margin:0 auto;margin-top:10%;padding:20px 20px;border-radius: 10px;text-align: center;}
+#username{width:180px;border:1px solid #ccc;height: 30px;line-height: 30px;border-radius: 4px;}
+#password1{width:180px;border:1px solid #ccc;height: 30px;line-height: 30px;border-radius: 4px;}
+#password2{width:180px;border:1px solid #ccc;height: 30px;line-height: 30px;border-radius: 4px;}
+#nickname{width:180px;border:1px solid #ccc;height: 30px;line-height: 30px;border-radius: 4px;}
+#email{width:180px;border:1px solid #ccc;height: 30px;line-height: 30px;border-radius: 4px;}
+#submitreg{margin:10px 0 0 70px;cursor: pointer;}
+#cancel{margin:10px 0px 0 10px;cursor: pointer;}
+#myfieldset{border-width: 0px;}
+#iwantlogin{margin: 10px 0 0 0;}
+#iwantreg{margin: 10px 0 0 80px;}
+#welcome{font-size: 22px;}
+
+#name-error{color: red;}
+#password-error{color: red;}
+
+#dofriend{position: fixed;bottom: 10px;margin-left:10px;padding-left: 30px;padding-right:30px;border-radius: 5px;}
+#friendid{margin-bottom: 5px;}
+#addfriend{margin-right: 15px;}
+/*#deletefriend{}*/
+
+#infouser{position: fixed;top:35px;height: 20px;left: 60px;}
+#layout{position: fixed;top:0;right: 120px;}
+#userlist{height: 80%;border:1px solid #dab9c0;margin: 10px;border-radius: 5px;background-color:#fcfcfe; }
+
+#infowelcome{float: left;}
+#welcomecolor{color:darkorchid;font-size: 16px;}
+#currentuser{float: left;}
+#backg{height: 100%;}

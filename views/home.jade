@@ -1,0 +1,30 @@
+extends layout
+
+block content
+
+  div#chat
+    div#msgContent
+      div#infouser
+          p#infowelcome
+           span#welcomecolor 欢迎：
+          p#currentuser #{user}
+      ul#messages
+      form.form
+        div#sendContent
+          select#sel_obj
+            option(value="") 发送对象
+          input#m(maxlength=200)
+          button#s 发送
+
+    div#users
+      div#online
+          p#infofriend 好友列表
+      ol#userlist
+      div#dofriend
+        input#friendid(placeholder="请输入账号",maxlength=20)
+        br
+        button#addfriend 添加好友
+        button#deletefriend 删除好友
+  script(src="/javascripts/jquery-1.11.2.js")
+  script(src="/javascripts/socket.io.js")
+  script(src="/javascripts/chat.js")

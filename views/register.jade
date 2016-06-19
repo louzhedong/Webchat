@@ -1,0 +1,19 @@
+//
+   Created by DELL on 2016/6/13.
+
+extends layout
+
+block content
+    form#myform(role="form",method="post")
+        fieldset#myfieldset
+            div#registernew
+                注册新账户：
+                input#username(name="username",placeholder="注册账户",autofocus="autofocus",maxlength=20)
+                input#password1(name="password1",type="password",placeholder="注册密码",maxlength=20)
+                input#password2(name="password2",type="password",placeholder="确认密码",maxlength=20)
+                input#nickname(name="nickname",placeholder="昵称",maxlength=20)
+                input#email(name="email",placeholder="注册邮箱",maxlength=50)
+                p
+                a(href = "../")
+                    button#cancel(type="button") 取消
+                button#submitreg(type="submit") 注册
