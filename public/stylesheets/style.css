@@ -47,7 +47,7 @@ ol li:hover{background-color: #f2f2f2;}
 
 #mytitle{font-size: 20px;padding-left: 60px;background-color: white;}
 #loginorreg{background-color: #f7f2ee; width:250px;height:120px;border:1px solid #dab9c0;margin:0 auto;margin-top:15%;padding:20px 20px;border-radius: 10px;text-align: center;}
-#registernew{background-color: #f7f2ee; width:250px;height:240px;border:1px solid #dab9c0;margin:0 auto;margin-top:10%;padding:20px 20px;border-radius: 10px;text-align: center;}
+#registernew{background-color: #f7f2ee; width:250px;height:300px;border:1px solid #dab9c0;margin:0 auto;margin-top:10%;padding:20px 20px;border-radius: 10px;text-align: center;}
 #username{width:180px;border:1px solid #ccc;height: 30px;line-height: 30px;border-radius: 4px;}
 #password1{width:180px;border:1px solid #ccc;height: 30px;line-height: 30px;border-radius: 4px;}
 #password2{width:180px;border:1px solid #ccc;height: 30px;line-height: 30px;border-radius: 4px;}

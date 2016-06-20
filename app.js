@@ -10,6 +10,7 @@ var getmsg = require('./routes/getmsg');
 var getuser = require('./routes/getuser');
 var addfriend = require('./routes/addfriend');
 var deletefriend = require('./routes/deletefriend');
+var getusername = require('./routes/getusername');
 var app = express();
 
 // view engine setup
@@ -36,6 +37,7 @@ app.use('/getmsg',getmsg);
 app.use('/getuser',getuser);
 app.use('/addfriend',addfriend);
 app.use('/deletefriend',deletefriend);
+app.use('/getusername',getusername);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
