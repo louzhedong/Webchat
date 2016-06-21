@@ -1,2 +1,2 @@
 web: node index.js
-or: npm start
+web or: npm start (mostly used)
